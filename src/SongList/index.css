@@ -1,0 +1,51 @@
+.song-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.song-image {
+  height: 160px;
+  margin: 10px;
+}
+.upper-song-content {
+  display: flex;
+  flex-direction: row;
+}
+.genre-name {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+  padding: 10px;
+}
+.name {
+  font-size: 29px;
+  color: #ffffff;
+}
+.genre {
+  margin-top: 5px;
+  font-size: 26px;
+  color: #3b82f6;
+}
+.bottom-song-content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-right: 30px;
+  padding: 10px;
+}
+.duration {
+  font-size: 29px;
+  color: #ffffff;
+  margin-right: 20px;
+}
+.button {
+  background-color: transparent;
+  border: none;
+  margin-left: 20px;
+}
+.delete-icon {
+  font-size: 30px;
+  color: #ffffff;
+}
